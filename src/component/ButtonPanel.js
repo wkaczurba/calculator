@@ -4,6 +4,12 @@ import PropTypes from "prop-types";
 
 import "./ButtonPanel.css";
 
+/**
+ * This class contains panel of buttons. It renders <Buttons with anem and clickHandler> :).
+ * Note; name and clickHandler is a property.
+ * PropTypes is a class from "prop-types".
+ *
+ */
 export default class ButtonPanel extends React.Component {
   static propTypes = {
     clickHandler: PropTypes.func,
